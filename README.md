@@ -1,6 +1,20 @@
 # 使用
-已注册全局组件，无需单独引入，直接使用：
+```
+// 全局
+import SearchForm from 'element-search-form'
+Vue.use(SearchForm);
 
+// 单个组件使用
+import SearchForm from 'element-search-form'
+export default {
+  components: {
+    SearchForm
+  },
+  ...
+}
+```
+
+组建中使用：
 ```
 <search-form v-model="queryParams" :config="searchConfig" @search="getData('search')">
   <div slot="custom-slot" slot-scope="{slotData}">
