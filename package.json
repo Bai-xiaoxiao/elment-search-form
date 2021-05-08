@@ -1,6 +1,6 @@
 {
   "name": "element-search-form",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "基于element的搜索组件",
   "main": "index.js",
   "scripts": {
